@@ -7,6 +7,10 @@
 
 @media(max-width: 900px){
 
+    html{
+        overflow-x: hidden;
+    }
+
     .main h1{
         justify-content: center;
         text-align: center;
