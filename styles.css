@@ -10,7 +10,7 @@ html{
 
 body{
     height: 100%;
-    background: linear-gradient(#9C191B, #EC8385);
+    background: linear-gradient(#9C191B, #EC8385) fixed;
     overflow-x: hidden;
 }
 
@@ -46,6 +46,7 @@ img{
 }
 
 .image-container{
+    min-height: 100%;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -997,11 +998,107 @@ img{
     transition: background 0.2s ease-in, transform 500ms;
 }
 
+#img-46{
+    background-image: url(imgs/IMG_4905.webp);
+    background-size: cover;
+    transition: background 0.2s ease-out, transform 250ms;
+    width: 330px;
+    height: 330px;
+    position: relative;
+    z-index: 0;
+    border-bottom: 70px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-top: 20px solid white;
+    transform: rotate(-10deg);
+}
 
+#img-46:hover{
+    background-image: url(hover-imgs/46.webp);
+    transform: scale(1.1);
+    transition: background 0.2s ease-in, transform 500ms;
+}
 
+#img-47{
+    background-image: url(imgs/IMG_7219.webp);
+    background-size: cover;
+    transition: background 0.2s ease-out, transform 250ms;
+    width: 340px;
+    height: 340px;
+    position: relative;
+    z-index: 0;
+    border-bottom: 70px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-top: 20px solid white;
+    transform: rotate(11deg);
+}
 
+#img-47:hover{
+    background-image: url(hover-imgs/47.webp);
+    transform: scale(1.1);
+    transition: background 0.2s ease-in, transform 500ms;
+}
 
+#img-48{
+    background-image: url(imgs/giphy\ \(10\).gif);
+    background-size: cover;
+    transition: background 0.2s ease-out, transform 250ms;
+    width: 330px;
+    height: 330px;
+    position: relative;
+    z-index: 0;
+    border-bottom: 70px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-top: 20px solid white;
+    transform: rotate(-11deg);
+}
 
+#img-48:hover{
+    background-image: url(hover-imgs/48.webp);
+    transform: scale(1.1);
+    transition: background 0.2s ease-in, transform 500ms;
+}
 
+#img-49{
+    background-image: url(imgs/IMG_7252.webp);
+    background-size: cover;
+    transition: background 0.2s ease-out, transform 250ms;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    z-index: 0;
+    border-bottom: 70px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-top: 20px solid white;
+    transform: rotate(11deg);
+}
 
+#img-49:hover{
+    background-image: url(hover-imgs/49.webp);
+    transform: scale(1.1);
+    transition: background 0.2s ease-in, transform 500ms;
+}
 
+#img-50{
+    background-image: url(imgs/IMG_1325.webp);
+    background-size: cover;
+    transition: background 0.2s ease-out, transform 250ms;
+    width: 320px;
+    height: 320px;
+    position: relative;
+    z-index: 0;
+    border-bottom: 70px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-top: 20px solid white;
+    transform: rotate(-11deg);
+}
+
+#img-50:hover{
+    background-image: url(hover-imgs/50.webp);
+    transform: scale(1.1);
+    transition: background 0.2s ease-in, transform 500ms;
+}
